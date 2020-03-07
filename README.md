@@ -2,7 +2,12 @@
 
 This repository illustrates an example to use Combine to retreive JSON response and load to a UITableView.
 
-However, Combine is best used with SwiftUI. This is only to replace the use of RxSwift in the ![previous example](https://github.com/calvinwkl/swift-uitableview)
+However, Combine is best used with SwiftUI. This is only to replace the use of RxSwift in the [previous example](https://github.com/calvinwkl/swift-uitableview).
+
+
+## Swift Package Manager
+
+- [CombineDataSources](https://github.com/CombineCommunity/CombineDataSources)
 
 ## Mock API response
 
