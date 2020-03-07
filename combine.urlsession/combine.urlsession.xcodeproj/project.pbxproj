@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		F85490482413C50300D7CFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85490462413C50300D7CFED /* Main.storyboard */; };
 		F854904A2413C50500D7CFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85490492413C50500D7CFED /* Assets.xcassets */; };
 		F854904D2413C50500D7CFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F854904B2413C50500D7CFED /* LaunchScreen.storyboard */; };
+		F85490562413FC7600D7CFED /* CombineDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = F85490552413FC7600D7CFED /* CombineDataSources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85490562413FC7600D7CFED /* CombineDataSources in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = combine.urlsession;
+			packageProductDependencies = (
+				F85490552413FC7600D7CFED /* CombineDataSources */,
+			);
 			productName = combine.urlsession;
 			productReference = F854903D2413C50300D7CFED /* combine.urlsession.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = F85490342413C50300D7CFED;
+			packageReferences = (
+				F85490542413FC7600D7CFED /* XCRemoteSwiftPackageReference "CombineDataSources" */,
+			);
 			productRefGroup = F854903E2413C50300D7CFED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F85490542413FC7600D7CFED /* XCRemoteSwiftPackageReference "CombineDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/combineopensource/CombineDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F85490552413FC7600D7CFED /* CombineDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85490542413FC7600D7CFED /* XCRemoteSwiftPackageReference "CombineDataSources" */;
+			productName = CombineDataSources;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F85490352413C50300D7CFED /* Project object */;
 }

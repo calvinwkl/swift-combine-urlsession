@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CombineDataSources",
+        "repositoryURL": "https://github.com/combineopensource/CombineDataSources",
+        "state": {
+          "branch": null,
+          "revision": "82500a23998754251c6a869d7ecab2824afa771c",
+          "version": "0.2.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
