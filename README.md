@@ -1,6 +1,6 @@
 # Using Combine for URLSession in Swift ![Swift](https://img.shields.io/badge/swift-5.0-brightgreen.svg)
 
-This repository illustrates an example to use Combine to retreive JSON response and load to a UITableView.
+This repository illustrates an example to use Swift's [Combine](https://developer.apple.com/documentation/combine) to retreive JSON response and load to a UITableView.
 
 However, Combine is best used with SwiftUI. This is only to replace the use of RxSwift in the [previous example](https://github.com/calvinwkl/swift-uitableview).
 
