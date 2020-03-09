@@ -5,6 +5,10 @@ This repository illustrates an example to use Swift's [Combine](https://develope
 However, Combine is best used with SwiftUI. This is only to replace the use of RxSwift in the [previous example](https://github.com/calvinwkl/swift-uitableview).
 
 
+## The Article
+
+- [Using Combine for URLSession in Swift (1) - replacing RxSwift](https://medium.com/@calvinw/using-combine-for-urlsession-in-swift-1-replacing-rxswift-2cd022f57121)
+
 ## Swift Package Manager
 
 - [CombineDataSources](https://github.com/CombineCommunity/CombineDataSources)
